@@ -48,7 +48,7 @@ require_once 'dbConfig.php'; ?>
             echo "</table>";
         } else {
             // Display a message if no instructors are found
-            echo "No products found.";
+            echo "No instructors found.";
         }
     } else {
         echo "Database connection failed.";
